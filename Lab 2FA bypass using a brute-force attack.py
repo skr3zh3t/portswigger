@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 session = requests.Session()
-login_page_url = "https://0a6a003703019a3f80013a4400ad0009.web-security-academy.net/login"
-login_page2_url = "https://0a6a003703019a3f80013a4400ad0009.web-security-academy.net/login2"
+login_page_url = "https://example.web-security-academy.net/login"
+login_page2_url = "https://example.web-security-academy.net/login2"
 response = session.get(login_page_url)
 code = 1111
 
